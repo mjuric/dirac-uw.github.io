@@ -35,20 +35,21 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>University of Washington For the Win!</p>"
+    about_us = “””<p>University of Washington For the Win!</p>"
     copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Foo Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p><strong>University of Washington</strong>
+        <br>DIRAC Institute
+        <br>Physics-Astronomy Bldg.
+        <br>3910 15th Ave NE
+        <br>Seattle, WA 98195-0002
         <br>
-        <strong>Great Britain</strong>
+      
+        <strong></strong>
       </p>
       """
     latitude = "-12.043333"
