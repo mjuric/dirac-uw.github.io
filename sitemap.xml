@@ -2,116 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/2015/10/10/migrate-from-jekyll/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/2015/10/10/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/2015/10/02/linked-post/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/2015/10/02/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/2015/09/17/go-is-for-lovers/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/2015/09/17/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/2015/08/03/hugo-is-for-lovers/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/2015/08/03/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/2015/06/24/creating-a-new-theme/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/2015/06/24/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/blog/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/categories/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/contact/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/faq/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/faq/</loc>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/go/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/golang/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/hugo/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/ipsum/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/categories/lorem/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/programming/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/categories/programming/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/categories/pseudo/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/categories/starting/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://research.majuric.org/dirac2/tags/theme/</loc>
+    <loc>https://mjuric.github.io/dirac-uw.github.io/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
