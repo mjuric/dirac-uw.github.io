@@ -2,7 +2,7 @@
 
 ## Where is the result
 
-http://research.majuric.org/dirac
+https://dirac-uw.github.io
 
 ## Getting the source
 
@@ -27,5 +27,5 @@ in the root directory to build and test it (on http://localhost:1313).
 ## Deploying
 
 Once you're happy with your additions, run `deploy.sh` to deploy into production.
-Note that right now mjuric is the only one who can do this (as the website
-lives on his server).
+You have to have write access to git@github.com:dirac-uw/dirac-uw.github.io.git
+for deplyoment to work.
