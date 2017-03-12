@@ -18,7 +18,7 @@ paginate = 10
     googleMapsApiKey = ""
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -36,7 +36,7 @@ paginate = 10
     email = "your@email.com"
 
     about_us = "<p>University of Washington For the Win!</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2017, University of Washington; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -52,8 +52,8 @@ paginate = 10
         <strong></strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "47.653685"
+    longitude = "-122.311466"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -92,12 +92,13 @@ paginate = 10
 
 [params.features]
     enable = true
+    title = "Testimonials"
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
 
 [params.testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
@@ -105,7 +106,7 @@ paginate = 10
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -122,5 +123,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
+    title = "Recent News"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
