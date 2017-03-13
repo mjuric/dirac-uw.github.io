@@ -1,0 +1,121 @@
+body {
+  padding-top: 50px;
+}
+.lsst {
+  padding: 40px 15px;
+}
+.jumbotron {
+  background-image: url("m2-sdss.jpg");
+  background-size: cover;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.slider-size {
+  height: 400px; /* This is your slider height */
+}
+
+#dm {
+  background-color: #e0e0e0;
+}
+
+#lsst {
+/*  background-color: #e0e0e0; */
+  background: url(lsst2.jpg) top right;
+  background-size: cover;
+  height: 400px;
+
+  color: #eef;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+#jobs {
+  background-color: #e0e0e0;
+}
+
+.code {
+  background-color: #000;
+  color: #8f8;
+  margin-top: 2ex;
+  margin-bottom: 2ex;
+  margin-left: 2ex;
+  margin-right: 2ex;
+}
+
+.container-fluid {
+  padding-bottom: 3ex;
+  padding-top: 2ex;
+  border-top: solid #aaa thin;
+}
+
+.logo {
+  height: 25px; width: auto; margin: 10px;
+}
+
+.logo-agency {
+  height: 50px; width: auto; margin: 10px;
+}
+
+#logos {
+  text-align: center;
+}
+
+#carousel-dm {
+  background: url(m2-sdss.jpg) bottom left;
+  background-size: cover;
+}
+
+#carousel-dm .carousel-caption {
+  margin-bottom: 40px;
+}
+
+#carousel-lsst {
+  background: url(lsst2.jpg) top right;
+  background-size: cover;
+}
+
+#carousel-lsst .carousel-caption {
+  text-align: left;
+  top: 0;
+  bottom: auto;
+}
+
+#dm div div h1 {
+  text-align: center;
+}
+
+.learn-more {
+  padding-top: 2ex;
+  text-align: right;
+}
+
+.hint {
+  padding-top: 2ex;
+}
+
+.right .github-fork-ribbon {
+  background-color: #888;
+}

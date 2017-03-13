@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- link rel="icon" href="../../favicon.ico" -->
+
+    <title>LSST Data Management</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics (via mjuric's Google Analytics account) -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-57287526-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+    <!-- Using the great stylesheet from https://github.com/simonwhitaker/github-fork-ribbon-css -->
+    <link rel="stylesheet" href="gh-fork-ribbon.css">
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="gh-fork-ribbon.ie.css">
+    <![endif]-->
+    <!-- END -->
+  </head>
+
+  <body>
+
+<!-- Disabled until we're ready to start sending people to GitHub
+
+    <div class="github-fork-ribbon-wrapper right">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/LSST">Fork me on GitHub</a>
+        </div>
+    </div>
+
+-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">LSST :: Data Management</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#code">Getting the Code</a></li>
+            <li><a href="#jobs">Getting Involved</a></li>
+            <li><a href="#lsst">About LSST</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slider-size" id="carousel-dm">
+            <div class="carousel-caption">
+                <h1>LSST Data Management</h1>
+                       <p>Building a high-performance, scalable, general purpose, open source O/IR survey data processing and analysis system.</p>
+                <p>A subsystem of the <a href="http://lsst.org">LSST Project</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider-size" id="carousel-lsst">
+            <div class="carousel-caption">
+                <h1>Large Synoptic Survey Telescope</h1>
+                <p>The most ambitious astronomical survey ever attempted.</p>
+              <p><a class="btn btn-primary" href="#lsst" role="button">Learn more &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+
+
+    <div class="container-fluid" id="intro">
+      <div class="container">
+        <h1>Building the Next-Generation Data Processing System</h1>
+        <br>
+
+        <div class="row">
+        <div class="col-md-9">
+        <p>
+        <a href="#lsst">The LSST</a> is a large optical survey project funded by the National Science
+        Foundation and the Department of Energy. It will continually image the sky,
+        identify changes in near real time, and over a decade of operations collect tens
+        of petabytes of data building up the deepest, widest, image of the Universe.
+        Its data will enable a range of science goals from identification of
+        Near Earth Asteroids to understanding the nature of Dark Energy.
+        </p>
+
+	<p>
+	A survey of this scale requires significant computing resources but
+	also a modern, high-performance, scalable, data processing and
+	analysis system.  The LSST Data Management team is guiding an
+	effort to build such a suite. Primarily written in Python and C++,
+	open source, and comprised of modular codes ranging from science
+	pipelines to web user interfaces, the <b>LSST software stack</b>
+	will power the LSST and form a basis that other projects can
+	reuse in the future.
+	</p>
+
+        <p>
+        The LSST DM team is distributed across a number of partner
+        institutions &mdash; the <a href="https://project.lsst.org">LSST Project
+        Office</a>, the <a href="http://www.ipac.caltech.edu">Infrared
+        Processing and Analysis Center</a>, the <a
+        href="http://ncsa.illinois.edu">National Center for Supercomputing
+        Applications</a>, <a href="http://www.astro.princeton.edu">Princeton
+        University</a>, <a href="http://slac.stanford.edu">SLAC National
+        Accelerator Laboratory</a>,
+        and the <a href="http://www.astro.washington.edu">University of
+        Washington</a> &mdash; but also helped by contributors from the community,
+        the LSST science collaborations, and other project subsystems.
+        </p>
+
+        </div>
+
+
+    <div class="col-md-3" id="logos">
+          <img src="logos/nsf4.gif" class="logo-agency" alt="NSF">
+          <img src="logos/doe.png" class="logo-agency" alt="DOE">
+          <br/>
+          <img src="logos/lsst.png" class="logo" alt="LSST Headquarters">
+          <img src="logos/princeton.png" class="logo" alt="Princeton University">
+          <img src="logos/uw.png" class="logo" alt="University of Washington">
+          <img src="logos/ncsa.png" class="logo" alt="NCSA">
+          <img src="logos/ipac.png" class="logo" alt="IPAC">
+          <img src="logos/slac.png" class="logo" alt="SLAC National Accelerator Lab">
+          <img src="logos/noao.png" class="logo" alt="NOAO">
+    </div>
+
+    </div>
+
+	<p class="learn-more">
+	<a class="btn btn-primary" href="http://www.slideshare.net/MarioJuric/lsstdm-building-a-next-generation-survey-data-processing-system" role="button">Learn more about LSST data processing &raquo;</a>
+	</p>
+
+    </div>
+    </div>
+
+
+
+
+    <div class="container-fluid" id="dm">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Science Pipelines</h2>
+          <p>
+
+        The <a href="http://ls.st/ug">LSST Science Pipelines</a> will implement the core image processing and data
+        analysis algorithms needed to process optical survey imaging data at
+        low latency and unprecedented scale and accuracy.  We are writing pipelines for
+        single-epoch image processing, coaddition, image differencing,
+        optimal multi-epoch measurements, and (global) photometric and
+        astrometric calibration, among others.
+
+       </p>
+
+       </div>
+        <div class="col-md-4">
+          <h2>Scalable Database</h2>
+          <p>
+
+        To satisfy the need to efficiently store, query, and analyze catalogs
+        running into trillions of rows and petabytes of data, we are developing
+        <a href="http://ls.st/kth">Qserv</a>, a distributed shared-nothing SQL database query system.
+
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>User Interface</h2>
+          <p>
+        One of the most important jobs of a large survey is to provide access.
+        This includes access to catalogs, processed images, and raw images.  Access in the next generation
+        of surveys will extend to visualization and analysis.  We are writing interfaces
+        that will allow thousands of users to query, download, visualize, and analyze petabytes of LSST data.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Data Access Middleware</h2>
+          <p>
+        In order to build a scalable, portable processing system, we are creating extensible
+        middleware to transparently access data irrespective of storage location or format.
+        </p>
+
+        </div>
+        <div class="col-md-6">
+          <h2>Distributed Execution</h2>
+          <p>
+        The LSST data processing pipelines will need to efficiently scale from single core
+        execution to tens of thousands of cores.  To meet this requirement we are building
+        an orchestration framework to launch and monitor jobs on many different systems at
+        many different scales.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+    </div>
+
+
+
+    <div class="container-fluid" id="code">
+    <div class="container">
+
+    <h1>Getting the Code</h1>
+
+    <p>The LSST data processing codes are being developed in an iterative, agile, fashion. Though engineering
+    first light is still six years away, prototype versions of
+    a number of LSST codes are already being
+    tested on simulations and being applied to existing data (e.g.,
+    <a href="https://dev.lsstcorp.org/trac/wiki/DC/Winter2013">reprocessing SDSS Stripe 82</a>,
+    or <a href="http://subarutelescope.org/Projects/HSC/HSCProject.html">processing HSC Survey data</a>).
+    </p>
+
+    <p>
+    While already state-of-the-art in many areas, LSST software is
+    still in its infancy when it comes to end-user friendliness,
+    documentation, and API stability.  There is no binary distribution yet
+    &mdash; builds must be done from source.  Knowledge of Python (and
+    willingness to write some Python code) are necessary to work with the
+    current code base.
+
+    </p>
+
+    <p>
+    <span class="label label-warning">Warning</span> <b>At this stage, the LSST software will be of greatest interest to the LSST
+    Science Collaborations, large survey builders (or those reprocessing
+    large survey data sets), and astronomical image processing
+    enthusiasts.</b>
+
+    If you're just looking to reduce a few observations
+    with a ready-to-use tool, it may be better to look into one of the more
+    polished and/or established packages such as <a
+    href="http://www.astropy.org">AstroPy</a> or the <a
+    href="http://www.astromatic.net/">AstrOmatic</a> suite.
+    </p>
+
+    <h2>Installing</h2>
+
+    <p>There are several ways of installing the LSST Stack, including from <a href="https://pipelines.lsst.io/install/newinstall.html">source</a>, through <a href="https://pipelines.lsst.io/install/conda.html">Anaconda</a>, or as <a href="https://sqr-002.lsst.io">Docker containers</a>. Our <a href="https://pipelines.lsst.io/install/index.html">installation documentation</a> will get you started.</p>
+
+    <p>Here's how to install the <a href="https://pipelines.lsst.io/releases/notes.html">latest (v12) release</a> from source, given <a href="https://pipelines.lsst.io/install/newinstall.html#prerequisites">pre-requisites</a>:</p>
+
+    <pre class="code">
+curl -OL https://raw.githubusercontent.com/lsst/lsst/12.0/scripts/newinstall.sh
+bash newinstall.sh
+
+source loadLSST.bash
+
+eups distrib install -t v12_0 lsst_apps</pre>
+
+    <p>Once you've installed the stack, see <a href="https://confluence.lsstcorp.org/display/LSWUG/Using+the+LSST+Stack">here</a> for examples of what you can do with it.</p>
+
+    <h2>Cloning the sources</h2>
+    <p>All LSST DM code is visible on <a href="http://github.com/lsst">GitHub</a>, spread across 100+ repositories.</p>
+
+    <p>The <a href="https://pipelines.lsst.io/install/lsstsw.html">LSST software build tool</a> is helpful for cloning and (re)building from git. Feel free to join DM Developers on the <a href="https://community.lsst.org">LSST Community forum</a> and ask for help in the <a href="https://community.lsst.org/c/support">Support</a> category.</p>
+    </div>
+    </div>
+
+
+    <div class="container-fluid" id="jobs">
+    <div class="container">
+      <h1>Getting Involved</h1>
+      The real work to construct the LSST data processing system is just beginning, and there's ample room to get involved.
+      <div class="row">
+        <div class="col-md-6">
+         <h2>Join Us</h2>
+	 <p>
+         We're in the process of assembling the team of 45+ scientists, software engineers,
+        and IT experts needed to build, commission, and operate the data
+        system for LSST.
+        </p>
+
+	 <p>
+	 Current LSST DM job openings:
+	 </p>
+         <ul>
+          <li><a href="https://www.princeton.edu/astro/resources/job/jo/index.xml#comp000055bddc2d0000003dd7408b">Princeton University: Postdoctoral Positions in Software</a> <span class="label label-info">Updated for 2017 start</span>
+         </ul>
+
+	<p class="hint">
+	<span class="label label-info">Hint</span> To receive e-mails for new LSST DM job openings, subscribe to
+	the <a href="https://lists.lsst.org/mailman/listinfo/dm-announce">dm-announce</a> mailing list.
+        For more LSST positions, see the main <a href="http://lsst.org/hiring">LSST Hiring</a> page.
+        </p>
+        </div>
+
+        <div class="col-md-6">
+         <h2>Use, Modify, Contribute</h2>
+         <p>
+         The LSST data processing system, though still in an early construction
+         phase, is an open source (GPLv3) software project
+         free for anyone to use and is open to contributions from the
+         community.
+         </p>
+
+         <p>We invite you to:</p>
+         <ul>
+          <li><a href="http://pipelines.lsst.io">Read the documentation at pipelines.lsst.io</a>
+          <li><a href="https://community.lsst.org/c/dm">Join the conversation with DM on the LSST Community forum</a></li>
+          <li><a href="http://github.com/lsst">View the code on GitHub</a>
+         </ul>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container-fluid" id="lsst">
+      <div class="container">
+        <h1>The LSST Survey</h1>
+        <p>8.4 meter, wide-field, f/1.2 telescope.<br/>
+        3.2 Gigapixel, 189 4k x 4k CCD camera, with 2-second readout.<br/>
+        PetaFLOPS of computing power, hundreds of PB of storage, gigabit long-haul networks.</p>
+      </div>
+      <div class="container">
+        <h4>Turning the sky into a database.</h4>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Petascale Era of Optical Astronomy</h2>
+          <p>Beginning early in the next decade, the LSST will collect over 50 PB of raw data, resulting in over 30 trillion observations of 40 billion astronomical sources.
+             It will measure the positions and properties of over 20 billion stars, or 10% of all stars in the Milky Way.</p>
+       </div>
+        <div class="col-md-4">
+          <h2>Rapid Discovery</h2>
+          <p>The LSST will scan the visible sky once every three days, charting objects that change or move: from exploding supernovae to potentially hazardous near-Earth asteroids.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Open Data, Open Source</h2>
+          <p>
+
+        LSST data will be available with no proprietary period to
+        all astronomers in the United States, Chile, and International Partners.
+        Alerts about variable sources will be available world-wide within 60
+        seconds.
+        The LSST data processing stack will be open source (GPL v3).
+          </p>
+          <p class="learn-more"><a class="btn btn-primary" href="http://lsst.org/lsst/science/overview" role="button">Learn more about the science of LSST &raquo;</a></p>
+        </div>
+      </div>
+
+    </div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- script src="../../assets/js/ie10-viewport-bug-workaround.js"></script -->
+
+    <script>
+      $('.carousel').carousel({ interval: 8000 });
+    </script>
+
+    <script>
+      // inspired by http://blog.thewebsitepeople.org/2011/05/jquery-scrolling-anchors/
+      // simplified and dropped compatibility with non-HTML5 browsers
+      $(document).ready(function()
+      {
+        /*
+          ****************************************************************
+          Bind to the hashchange event to:
+            1) Provide custom scrolling that takes into account the 
+               height of the navbar
+            2) Highlights the clicked navbar buttons (sets the active class)
+            3) Hide the collapsed menu on small devices, if it was visible
+          ****************************************************************
+        */
+        $(window).on('hashchange', function(e)
+        {
+          hash = location.hash == "" ? "#" : location.hash;
+
+          // guard against trying to scroll to an inexistent target
+          if(element = $(hash)) {
+            // Note that we scroll to the position of the div minus 50px, to account for
+            // the size of the navbar.
+            scrollTo = hash != "#" ? element.offset().top - 50 : 0
+            $('html,body').animate({scrollTop: scrollTo}, 300);
+          }
+
+          // active/inactive setting of navbar buttons
+          $('.nav li').removeClass('active');
+          anchor = $('.nav li a[href=' + hash + ']')
+          if(anchor) {
+              var $parent = anchor.parent();
+              if (!$parent.hasClass('active')) {
+                  $parent.addClass('active');
+              }
+          }
+
+          // On small screen devices, make sure the (collapsed) navbar is hidden
+          // after navigation
+          navbar = $(".navbar-collapse.in")
+          if(navbar.is(":visible")) {
+              navbar.collapse('hide');
+          }
+        });
+
+        /*
+          ****************************************************************
+          Hook into onClick handler of all anchors with fragment targets, and
+          override the default scrolling behavior.
+          ****************************************************************
+        */
+        $('a[href^="#"]').on('click', function(e)
+        {
+          // don't follow the link
+          e.preventDefault();
+
+          // Instead, update history without triggering automatic scrolling
+          hash = this.hash == "" ? "#" : this.hash;
+          history.pushState(null, null, hash);
+
+          $(window).trigger('hashchange');
+        });
+
+        /*
+          ****************************************************************
+          Trigger the initial 'hashchange' event on page load, so if scrolling
+          and navbar button highlighting gets done if the user directly
+          navigated to an achor within the page.
+          ****************************************************************
+        */
+        $(window).trigger('hashchange');
+      });
+    </script>
+  </body>
+</html>
