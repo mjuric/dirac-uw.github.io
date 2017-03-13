@@ -2,17 +2,20 @@
 
 set -e
 
-if [[ $(git status -s) ]]; then
-    echo "The working directory is dirty. Please commit any pending changes."
-    exit 1;
-fi
+#if [[ $(git status -s) ]]; then
+#    echo "The working directory is dirty. Please commit any pending changes."
+#    exit 1;
+#fi
+REV=$(git describe --always --dirty)
 
 # Make sure we've got sumo
 git submodule init
 git submodule update
+(cd public && git checkout master -q)
 
 echo -e "\033[0;32m============== Generating site... ==============\033[0m"
-hugo
+rm -rf public/*
+tar cf - --exclude *.sh --exclude public --exclude .git --exclude old --exclude *~ . | (cd public && tar xf -)
 
 # Go To Public folder
 (
